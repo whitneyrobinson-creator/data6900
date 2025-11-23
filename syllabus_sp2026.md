@@ -1,0 +1,206 @@
+# **DATA 6900: Contemporary Topics Seminar**
+## **AI-Powered Business Process Automation (AIBPA)**
+## COURSE SYLLABUS
+---
+
+### **Table of Contents**
+*   [Course Information](#course-information)
+*   [Grading Plan](#grading-plan)
+*   [Course Schedule](#course-schedule)
+*   [Course Policies](#course-policies)
+
+---
+
+## **Course Information**
+*   **Semester:** Spring 2026
+*   **Instructor:** Dr. Jie Tao
+*   **Contact:** Slack Course Channel/DM - **No email will be responded**
+*   **Office Hours:** TBD
+*   **Class Meetings:** M 6:30 - 9:30 PM EST, Location TBD.
+
+---
+
+### **Course Description**
+This course provides a practical introduction to designing and implementing business process automation using Generative AI (GenAI). Students will learn to identify and analyze existing business workflows, conceptualize AI-driven solutions, and develop comprehensive proposals for automation. The curriculum is designed for a diverse graduate audience, focusing on strategic thinking and logical design rather than deep technical implementation. Through a semester-long project, students will select a real-world business case and build a complete automation proposal and a functional prototype, from initial opportunity analysis to a final executive-ready showcase.
+
+---
+
+### **Course Philosophy: The Consultant & The Teacher**
+This course is built on two core philosophies that mirror the demands of the modern workplace:
+
+1.  **You are a Consultant:** We focus on the *craft* of consulting. Our goal is to move beyond the technology to solve real business problems. You will learn to analyze processes, quantify value, manage risk, and communicate your recommendations with the poise and professionalism of a seasoned consultant.
+2.  **You are the Teacher of an AI:** The best way to learn how to use AI is to learn how to *teach* it. In this course, you are not just a user of a tool; you are an instructor for a brilliant but naive digital mind. We will frame "prompt engineering" as **Lesson Planning for an AI**, treating its components as the "Student Persona," "Required Reading," and "The Assignment." Debugging becomes **Diagnosing the Misunderstanding**. This approach transforms technical challenges into exercises in logic, clarity, and communication.
+
+---
+
+### **Learning Objectives**
+Upon successful completion of this course, you will have a portfolio of work that demonstrates you are a business-minded problem solver who can:
+
+1.  **Analyze** complex business processes and identify high-value opportunities for AI-powered automation.
+2.  **Design** robust, practical, and human-centric workflow solutions, instructing AI with clarity and precision.
+3.  **Quantify** the potential business impact of a technical solution and articulate a compelling, data-driven case for change.
+4.  **Execute** on your designs by rapidly building functional prototypes using modern, low-code automation platforms.
+5.  **Communicate** your strategic recommendations and technical solutions with confidence, poise, and a strong narrative to a senior executive audience.
+
+---
+
+### **Course Format & Methodology**
+This course uses a hands-on, project-based approach in a **flipped classroom** model.
+*   **Pre-Class:** Students will watch pre-recorded lectures covering theoretical concepts and new tools.
+*   **In-Class:** Class time is a **Consulting Workshop**. You will work in your project teams, applying the concepts from the lectures to your ongoing project. The instructor will act as a senior consultant, conducting "Consulting Rounds" with each team to provide personalized coaching, feedback, and occasional "Scenario Injections" to test your adaptability.
+*   **Student-Led Learning:** In the second half of the course, teams will take turns leading technical presentations, teaching their peers key skills in the n8n automation platform.
+
+**Logistics for Student-Led Sessions:**
+Teams will sign up for their presentation topics and dates during Week 3 of the course via a shared sign-up sheet. To ensure you are fully prepared to teach your peers, a **mandatory 15-minute coaching session** via instructor's **Office Hours** is **required** for the presenting team during the week leading up to your session. In this meeting, we will review your content for technical accuracy, refine your explanations for clarity, and practice your live demonstration.
+
+---
+
+### **Tools & Technology Requirements**
+Please ensure you have access to the following tools for this course. A consolidated list is provided here for your convenience.
+
+*   **Automation Platform (n8n):** This is our primary tool for Part 2. We will have a student-led session on setup. You can start by creating a free account on **[n8n.io Cloud](https://n8n.io/)** or by reviewing the **[n8n Desktop App](https://n8n.io/desktop-app/)** for local installation.
+*   **LLM API Access:** For prototyping, you will need access to a major Large Language Model via an API. You should create a developer account with at least one of the following: **[OpenAI (ChatGPT)](https://platform.openai.com/signup)**, **[Anthropic (Claude)](https://console.anthropic.com/)**, or **[Google (Gemini)](https://aistudio.google.com/)**. Please be aware that using these APIs is not free and will likely require you to place a credit card on file for billing. Usage costs for this course are expected to be minimal (typically less than a few dollars).
+*   **Diagramming (Mermaid):** We will use Mermaid syntax for our workflow diagrams. No installation is required; we will use free online tools like the **[Mermaid Live Editor](https://mermaid.live/)**.
+
+---
+
+## **Grading Plan**
+
+Your grade is a reflection of the quality of work you would deliver to a client and your effectiveness as a team member. Process, critical thinking, and iteration are valued as highly as the final product.
+
+| Component | Weight |
+| :--- | :--- |
+| **Course Project Portfolio** | **65%** |
+| - Milestone 1: Process Analysis (Wk 2) | 10% |
+| - Milestone 2: MVW Design (Wk 3) | 10% |
+| - Milestone 3: Business Case (Wk 5) | 15% |
+| - Final Proposal Package (Wk 13) | 10% |
+| - Final Showcase Performance (Wk 14) | 20% |
+| **In-Class Engagement & Professionalism** | **15%** |
+| - Weekly Workshop Submissions | 10% |
+| - Active & Constructive Participation | 5% |
+| **Student-Led Technical Presentation** | **20%** |
+| - Peer Evaluation | 12% |
+| - Instructor Evaluation | 8% |
+| **Total** | **100%** |
+
+---
+
+### **Grading Rubrics**
+Below are the rubrics for the major graded components.
+
+**Milestone 1: Process Analysis (10%)**
+| Criteria | Excellent (4 pts) | Good (3 pts) | Satisfactory (2 pts) | Needs Improvement (1 pt) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Process Mapping (Diagram)** | Diagram is exceptionally clear, accurate, and insightful, highlighting non-obvious pain points in the "as-is" process. | Diagram is clear and accurately represents the core steps of the business process. | Diagram represents the process but may be cluttered, hard to follow, or miss some key steps. | Diagram is inaccurate, incomplete, or does not clearly communicate the business process. |
+| **Opportunity Analysis** | Analysis identifies high-value automation opportunities that are logically and persuasively justified using the course framework (Pain Point + LLM Capability + Business Goal). | Analysis identifies relevant automation opportunities and provides a solid justification for why they are a good fit for GenAI. | Analysis identifies opportunities, but the justification is weak or does not clearly connect to business value. | Opportunities identified are trivial, not a good fit for GenAI, or lack any clear justification. |
+
+**Milestone 2: MVW Design (10%)**
+| Criteria | Excellent (4 pts) | Good (3 pts) | Satisfactory (2 pts) | Needs Improvement (1 pt) |
+| :--- | :--- | :--- | :--- | :--- |
+| **MVW Design (Diagram)** | The MVW is elegant in its simplicity, focusing on the single most critical path to deliver value. The diagram is clear and logical. | The MVW is a simple, linear workflow that logically addresses the core problem identified in Week 2. | The MVW is functional but may be overly complicated for a first version or does not directly address the primary pain point. | The workflow is illogical, does not represent an MVW, or fails to solve the identified problem. |
+| **Conceptual Tool ("Lesson Plan")** | The "Lesson Plan" (prompt) is a professional-grade "Data Contract" using the R.A.F.T. framework. The "Answer Key" (Example Output) is realistic and perfectly matches the prompt's intent. | The prompt is well-structured (e.g., Level 2) with a clear Role and Task. The "Answer Key" is present and relevant. | The prompt is a simple "Level 1" request. The "Answer Key" is missing, unrealistic, or does not match the prompt. | The tool definition is incomplete, the prompt is vague, and there is no "Answer Key." |
+
+**Milestone 3: Business Case & Final Design (15%)**
+| Criteria | Excellent (4 pts) | Good (3 pts) | Satisfactory (2 pts) | Needs Improvement (1 pt) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Advanced Workflow Design (V3.0)** | The advanced pattern (branch/loop) is meaningfully applied to solve a specific, complex problem. The HITL point is strategically placed and well-justified. | The workflow is enhanced with a logical advanced pattern and includes a sensible HITL point. | An advanced pattern is present but its purpose is unclear or it adds unnecessary complexity. The HITL point feels tacked on. | The workflow diagram is unchanged from the MVW, or the new additions are illogical or confusing. |
+| **Business Case & KPI Analysis** | The business case is compelling, with SMART KPIs that are directly tied to business value. Financial assumptions are thoughtful and defensible. | The business case is solid, with relevant KPIs and reasonable financial assumptions. | The business case is present, but KPIs are vague ("improve efficiency") and financial assumptions are not well-supported. | The business case is missing, superficial, or the analysis is disconnected from the proposed solution. |
+
+**Final Proposal Package (10%)**
+| Criteria | Excellent (4 pts) | Good (3 pts) | Satisfactory (2 pts) | Needs Improvement (1 pt) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Executive Summary** | The summary is persuasive, client-focused, and expertly synthesizes the problem, solution, and value proposition in a concise and impactful narrative. | The summary is clear, well-structured, and effectively communicates the key elements of the project. | The summary is a simple description of the project's features rather than its value. It may be too long or lack a clear narrative. | The summary is missing, poorly written, or fails to capture the essence of the project. |
+| **Comprehensive Analysis & Narrative** | The "Challenge & Pivot" story is insightful and demonstrates resilience. The overall document is polished, professional, and tells a coherent story from problem to solution. | The "Challenge & Pivot" story is clearly articulated. The final document is well-organized, complete, and professionally presented. | The document contains all required sections but may lack a strong narrative flow. The "Challenge & Pivot" is described superficially. | The final package is disorganized, incomplete, contains significant errors, or is unprofessional in tone. |
+
+**Final Showcase Performance (20%)**
+| Criteria | Excellent (4 pts) | Good (3 pts) | Satisfactory (2 pts) | Needs Improvement (1 pt) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Business Pitch (The "Why")** | The 10-minute pitch is a compelling and confident story that crisply articulates the business problem and the solution's value proposition. | The pitch is clear, well-structured, and effectively communicates the business case for the project. | The pitch focuses too much on technical features and not enough on business value, or is under-rehearsed. | The pitch is disorganized, confusing, or fails to explain the core business problem and value. |
+| **Prototype Demo (The "How")** | The 15-minute demo is smooth, effective, and clearly demonstrates how the prototype solves the specific business pain points identified in the pitch. | The demo is functional and successfully showcases the core features of the n8n workflow. | The demo is functional but may have minor technical glitches, or the connection between the demo and the business problem is unclear. | The demo fails to run, is confusing, or does not demonstrate the core value of the solution. |
+| **Q&A / Professionalism (The "So What?")**| The team handles the 20-minute Q&A with exceptional poise and confidence, providing thoughtful, strategic, and honest answers that demonstrate deep mastery of their project. | The team answers questions accurately and professionally, demonstrating a solid understanding of their solution and its implications. | The team can answer most questions but may struggle with challenging or strategic inquiries. Answers may be purely technical or slightly defensive. | The team is unable to answer key questions, becomes defensive, or demonstrates a superficial understanding of their project. |
+
+**Student-Led Technical Presentation (20%)**
+*   **Instructor Rubric (Contributes 8%):**
+    | Criteria (Weight) | Excellent (4 pts) | Good (3 pts) | Satisfactory (2 pts) | Needs Improvement (1 pt) |
+    | :--- | :--- | :--- | :--- | :--- |
+    | **Technical Accuracy (40%)** | Concepts are explained flawlessly and with depth. Demo is perfectly executed. The team confidently and correctly answers all peer questions. | Concepts are explained correctly with only minor simplifications. Demo works as intended. The team answers most questions well. | Core concepts are correct, but some key details are fuzzy or slightly inaccurate. Demo has minor glitches but achieves its goal. Some questions are answered incorrectly. | There are significant errors in the technical explanation. Demo fails or does not illustrate the intended concept. The team is unable to answer most questions. |
+    | **Pedagogical Effectiveness (40%)** | The presentation is logically structured to maximize learning. Complex ideas are skillfully broken down. The demo is the perfect example for the concept. | The presentation has a clear, logical structure. The demo is relevant and helpful. The session connects the "how" (the skill) to the "why" (its use in the project). | The presentation structure is present but could be clearer. The demo is functional but a better example could have been chosen. Pacing is inconsistent. | The presentation is disorganized and hard to follow. The demo is confusing or disconnected from the core topic. The session does not facilitate peer learning. |
+    | **Preparation & Professionalism (20%)** | The presentation is well-rehearsed and delivered with confidence. Slides are professional, clear, and error-free. The team works together seamlessly and manages time perfectly. | The presentation is clearly rehearsed. Slides are well-designed with few to no errors. The team coordinates their efforts effectively. Time management is good. | The presentation feels under-rehearsed. Slides are functional but may be cluttered or contain errors. Coordination between team members is clunky. | The presentation is disorganized and read from notes. Slides are sloppy or unprofessional. Poor time management and lack of team coordination. |
+*   **Peer Evaluation Form (Contributes 12%):**
+    After each student-led presentation, all non-presenting students will anonymously complete the following form. Your grade for this portion is the average score from all peer submissions.
+    *   **Instructions:** Please rate the presentation on the following criteria from 1 (Needs Improvement) to 5 (Excellent).
+    *   **Criterion 1: Clarity of Explanation:** Were the technical concepts explained in a way that was easy to understand, even if you were new to the topic?
+    *   **Criterion 2: Quality of Demonstration:** Was the live demo clear, relevant, and effective at illustrating the concept? Did it show *why* this skill is useful for our course project?
+    *   **Criterion 3: Overall Engagement:** Was the presentation delivered in an engaging and professional manner? Did the presenters effectively answer questions from the audience?
+    *   **Qualitative Feedback 1:** What was the single most valuable part of this presentation?
+    *   **Qualitative Feedback 2:** What is one piece of constructive feedback for improvement?
+
+---
+
+## **Course Schedule**
+
+**Part 1: Conceptual Design & Strategy (Weeks 1-6)**   
+
+*   **Week 1: Foundations: Understanding and Teaching the AI**
+    *   Topics: The "Why Now" of AI in Business; Course Overview; LLM Fundamentals; The "Workflow-First" Philosophy; System Prompts.
+    *   Activity: Strategic cross-functional teams are formed.
+
+*   **Week 2: The Consultant's Mindset & Process Analysis**
+    *   Topics: Defining Analytics Consulting; Problem Framing; Opportunity Identification; Workflow Diagramming with Mermaid.
+    *   **Deliverable:** Milestone 1: Process Analysis.
+
+*   **Week 3: Designing the Minimum Viable Workflow (MVW)**
+    *   Topics: MVW Principles; The Four Core Workflow Components; "Lesson Plan IS the Design"; Defining Conceptual Tools.
+    *   **Deliverable:** Milestone 2: MVW Design.
+
+*   **Week 4: Scaling Up: Advanced Workflow Patterns**
+    *   Topics: Iterative Loops & Reflection; Conditional Branching; Multi-Tool Orchestration; Industry Design Patterns.
+
+*   **Week 5: Ensuring Robustness & Quantifying Value**
+    *   Topics: Human-in-the-Loop (HITL); Defining SMART KPIs; Business Case Development & ROI Analysis.
+    *   **Deliverable:** Milestone 3: Business Case & Final Design.
+
+*   **Week 6: Delivering Value: Packaging the Final Proposal**
+    *   Topics: Comprehensive Risk Assessment; Ethical & Bias Analysis; Change Management & IT Governance; Crafting a Compelling Narrative.
+    *   Activity: Presentation of the proposal to the instructor.
+
+**Part 2: Prototyping & Implementation (Weeks 7-14)**
+
+> *Sign up forms will be made available to the students prior to week 7.*
+
+> *Topics are suggested. You can add any topics related to your specific workflow upon the instructor's approval.*
+
+*   **Week 7: Student-Led Session 1: Setting Up Your Prototyping Environment**
+    *   Topics: Cloud vs. Self-Hosting; Local n8n Setup & Configuration.
+
+*   **Week 8: Student-Led Session 2: Core Nodes & Data Handling**
+    *   Topics: n8n Templates; Trigger Nodes; Data Transformation (JSON & Expressions).
+
+*   **Week 9: Student-Led Session 3: Connecting to AI & APIs**
+    *   Topics: Using LLM Nodes; The HTTP Request Node; Managing Credentials.
+
+*   **Week 10: Student-Led Session 4: Logic & Flow Control**
+    *   Topics: The IF and Switch Nodes; Merging Data Streams.
+
+*   **Week 11: Student-Led Session 5: Working with External Services**
+    *   Topics: Connecting to Google Sheets; Sending Email; Introduction to Database Nodes.
+
+*   **Week 12: Student-Led Session 6: Error Handling, Logging, & Production Readiness**
+    *   Topics: Error Workflows; Execution Logs for Debugging; The Code Node.
+
+*   **Week 13: Final Project Workshop & Client Engagement Training**
+    *   Topics: Client Engagement & Communication; Managing a Professional Pitch.
+    *   Activity: Dress rehearsal and intensive coaching session.
+    *   **Deliverable:** Final Proposal Package (Executive Briefing & "Challenge & Pivot" Slide).
+
+*   **Week 14: The AI Solution Showcase**
+    *   Activity: Final Showcase event with external judges. Teams present in a 45-minute format (10-min pitch, 15-min demo, 20-min Q&A).
+    *   **Deliverable:** Final Presentation and Functional Prototype.
+
+---
+
+## **Course Policies**
+*   **Late Submissions:** In a professional consulting environment, deadlines are critical. **NO LATE SUBMISSIONS ARE ALLOWED** unless due to *unforeseen circumstances*.
+*   **Academic Integrity:** All work submitted must be the original work of the team. While the use of GenAI as a co-pilot is encouraged, all final deliverables must be reviewed, edited, and owned by the students. Standard university policies on academic integrity apply.
+*   **Accommodations:** Students with disabilities who may need accommodations in this class are encouraged to contact the university's disability support services office as soon as possible to ensure that such accommodations are arranged in a timely fashion.
