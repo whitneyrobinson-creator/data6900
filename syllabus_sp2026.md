@@ -76,9 +76,9 @@ Your grade is a reflection of the quality of work you would deliver to a client 
 | - Milestone 3: Business Case (Wk 5) | 15% |
 | - Final Proposal Package (Wk 13) | 10% |
 | - Final Showcase Performance (Wk 14) | 20% |
-| **In-Class Engagement & Professionalism** | **15%** |
-| - Weekly Workshop Submissions | 10% |
-| - Active & Constructive Participation | 5% |
+| **In-Class Engagement & Process** | **15%** |
+| - Lab Checkpoints (*Weekly upload of the artifact created during the Student-Led Technical Presentations*) | 10% |
+| - Client/Red Team Audit Participation | 5% |
 | **Student-Led Technical Presentation** | **20%** |
 | - Peer Evaluation | 12% |
 | - Instructor Evaluation | 8% |
@@ -125,8 +125,9 @@ Below are the rubrics for the major graded components.
     | Criteria (Weight) | Excellent (4 pts) | Good (3 pts) | Satisfactory (2 pts) | Needs Improvement (1 pt) |
     | :--- | :--- | :--- | :--- | :--- |
     | **Technical Accuracy (40%)** | Concepts are explained flawlessly and with depth. Demo is perfectly executed. The team confidently and correctly answers all peer questions. | Concepts are explained correctly with only minor simplifications. Demo works as intended. The team answers most questions well. | Core concepts are correct, but some key details are fuzzy or slightly inaccurate. Demo has minor glitches but achieves its goal. Some questions are answered incorrectly. | There are significant errors in the technical explanation. Demo fails or does not illustrate the intended concept. The team is unable to answer most questions. |
-    | **Pedagogical Effectiveness (40%)** | The presentation is logically structured to maximize learning. Complex ideas are skillfully broken down. The demo is the perfect example for the concept. | The presentation has a clear, logical structure. The demo is relevant and helpful. The session connects the "how" (the skill) to the "why" (its use in the project). | The presentation structure is present but could be clearer. The demo is functional but a better example could have been chosen. Pacing is inconsistent. | The presentation is disorganized and hard to follow. The demo is confusing or disconnected from the core topic. The session does not facilitate peer learning. |
+    | **Pedagogical Effectiveness (40%)** | The presentation is logically structured to maximize learning. **Includes mandatory "Hands-Off" conceptual checkpoints where the "Why" is explained before the "How."** Complex ideas are skillfully broken down. | The presentation has a clear structure. The demo is relevant. The session connects the "how" (the skill) to the "why" (its use in the project). | The presentation structure is present but could be clearer. The demo is functional but a better example could have been chosen. Pacing is inconsistent. | The presentation is disorganized. The demo is confusing or disconnected from the core topic. The session does not facilitate peer learning. |
     | **Preparation & Professionalism (20%)** | The presentation is well-rehearsed and delivered with confidence. Slides are professional, clear, and error-free. The team works together seamlessly and manages time perfectly. | The presentation is clearly rehearsed. Slides are well-designed with few to no errors. The team coordinates their efforts effectively. Time management is good. | The presentation feels under-rehearsed. Slides are functional but may be cluttered or contain errors. Coordination between team members is clunky. | The presentation is disorganized and read from notes. Slides are sloppy or unprofessional. Poor time management and lack of team coordination. |
+    
 *   **Peer Evaluation Form (Contributes 12%):**
     After each student-led presentation, all non-presenting students will anonymously complete the following form. Your grade for this portion is the average score from all peer submissions.
     *   **Instructions:** Please rate the presentation on the following criteria from 1 (Needs Improvement) to 5 (Excellent).
@@ -163,7 +164,7 @@ Below are the rubrics for the major graded components.
 
 *   **Week 6: Delivering Value: Packaging the Final Proposal**
     *   Topics: Comprehensive Risk Assessment; Ethical & Bias Analysis; Change Management & IT Governance; Crafting a Compelling Narrative.
-    *   Activity: Presentation of the proposal to the instructor.
+    *   Activity: **The Boardroom Simulation.** Teams rotate between Presenter, Client (ROI Audit), and Red Team (Risk Audit) roles. Session concludes with "The Academy Awards" peer recognition ceremony.
 
 **Part 2: Prototyping & Implementation (Weeks 7-14)**
 
@@ -187,16 +188,16 @@ Below are the rubrics for the major graded components.
     *   Topics: Connecting to Google Sheets; Sending Email; Introduction to Database Nodes.
 
 *   **Week 12: Student-Led Session 6: Error Handling, Logging, & Production Readiness**
-    *   Topics: Error Workflows; Execution Logs for Debugging; The Code Node.
+    *   Topics: Error Workflows; Execution Logs for Debugging; **Hybrid Engineering (Integrating Python/JS via Code Nodes).**
 
 *   **Week 13: Final Project Workshop & Client Engagement Training**
     *   Topics: Client Engagement & Communication; Managing a Professional Pitch.
-    *   Activity: Dress rehearsal and intensive coaching session.
+    *   Activity: Dress rehearsal, **Data Hygiene Audit** (Ethics in Practice), and integration of "Simulation Client" datasets for teams without external partners.
     *   **Deliverable:** Final Proposal Package (Executive Briefing & "Challenge & Pivot" Slide).
 
 *   **Week 14: The AI Solution Showcase**
     *   Activity: Final Showcase event with external judges. Teams present in a 45-minute format (10-min pitch, 15-min demo, 20-min Q&A).
-    *   **Deliverable:** Final Presentation and Functional Prototype.
+    *   **Deliverable:** Final Presentation, Functional Prototype, and **Client Handoff Package (SOP Doc & Maintenance Video).**
 
 ---
 
