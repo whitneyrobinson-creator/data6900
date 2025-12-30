@@ -164,6 +164,7 @@ I should be able to paste this output into a fresh LLM window to run the entire 
 ```
 
 ### Final Workflow Master Prompt
+> Used to illustrate **orchestration**, **logic** and **patterns** (*`VARIABLES`, `CONDITIONS`*) ONLY. We typically do not use long master prompts like below.
 ```
 # Master System Prompt — Project Nova Intelligent Network
 
