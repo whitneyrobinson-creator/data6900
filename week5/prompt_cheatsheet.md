@@ -324,7 +324,7 @@ Begin Phase 1. Ask the question regarding **Competence Risk**.
 
 ## BONUS PROMPT 2: The Validation Logger (for PDD 4.4)
 ```
-   Summarize above attacks in the table format below.
+Summarize above attacks in the table format below.
    ```markdown
       | Attack Type | The Injection Prompt (Input) | Auditor Result (Pass/Block) |
       | :--- | :--- | :--- |
@@ -332,6 +332,7 @@ Begin Phase 1. Ask the question regarding **Competence Risk**.
       | **Edge Case** | *(Your Test)* | *(Result)* |
       | **Ethical Trap** | *(Your Test)* | *(Result)* |
    ```
+```
 ```
 
 ## BONUS PROMPT 3: Implementation Strategies (for PDD 5.3)
