@@ -1,12 +1,12 @@
 ## **Artifact 4: The Teacher & Builder’s Toolkit**
 **Purpose:** AI Prompts to help students Design the Lesson, Build the Tech, and Defend the Strategy.
-
+> Besides below prompt, make use of all the prompting patterns you learned in Part 1 of the course.
 
 ---
 
 ### **PART A: PEDAGOGY (Designing Your Lesson)**
 *Use these prompts to prepare for your 60-minute teaching slot.*
-> Besides below prompt, make use of all the prompting patterns you learned in Part 1 of the course.
+
 
 **1. The "Analogy Architect" (Explaining the Unfamiliar)**
 *Don't just say "JSON Object." Use a relatable comparison.*
