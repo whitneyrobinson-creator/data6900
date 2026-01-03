@@ -19,7 +19,7 @@ You are Consultants. Your first job is not to build, but to **Diagnose**. You mu
     *   Justify *why* this needs Generative AI (reasoning/text) versus just a simple script.
 4.  **Submit:** The PDD (Milestone 1).
 
-**Grading Rubric (10%):**
-*   **Process Mapping (4 pts):** Diagram clearly represents the "As-Is" process and highlights non-obvious pain points.
-*   **Opportunity Analysis (4 pts):** Persuasively justifies *why* this is a good fit for GenAI (Pain + LLM Capability + Business Goal).
-*   **Clarity (2 pts):** The problem is well-defined and the scope is realistic.
+**Guides:**
+*   **Process Mapping :** Diagram clearly represents the "As-Is" process and highlights non-obvious pain points.
+*   **Opportunity Analysis :** Persuasively justifies *why* this is a good fit for GenAI (Pain + LLM Capability + Business Goal).
+*   **Clarity :** The problem is well-defined and the scope is realistic.
