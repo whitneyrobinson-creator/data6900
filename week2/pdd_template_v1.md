@@ -1,7 +1,7 @@
 # Process Design Document (PDD) - Milestone 1: Process Analysis
-**Team Name:**
-**Project Title:** (e.g., The LinkedIn Job Matcher)
-**Target Workflow:** (Personal/Professional Daily Task)
+**Team 3:**
+**AI Assisted Cover Letter Personalization:** (e.g., The LinkedIn Job Matcher)
+**Professional job application task – drafting cover letters ** (Personal/Professional Daily Task)**
 
 ---
 
