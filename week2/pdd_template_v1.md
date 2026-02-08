@@ -23,6 +23,9 @@ graph TD
     F --> G[Review and finalize cover letter]
     G --> H[Output: Submit cover letter]
 
+    style PainPoint fill:#f9a825,stroke:#333,stroke-width:2px
+
+
 ```
 
 ### 1.3 Pain Point Diagnosis
@@ -52,7 +55,7 @@ The relevant automation opportunity within this workflow is the step of mapping 
 Automation will be scoped to assist this specific reasoning task, using AI to support the alignment of job requirements with relevant experiences. Other steps in the workflow—such as reviewing, editing, and finalizing the cover letter—will remain human-controlled due to their lower pain scores and the need to manage risks related to accuracy and personal representation. By clearly identifying this high-impact, reasoning-heavy step as the automation target and explicitly excluding lower-value or higher-risk steps, the project identifies a focused and defensible automation opportunity consistent with the grading criteria.
 
 ### 3.1 The Target Zone
-*(Look at your diagram in Part 1.2 (_The Minimal Viable Workflow_). Which specific nodes will you replace with AI in Week 3?)*
+
 *   **We will replace:** [Map personal experiences and resume content to job requirements]
 *   **We will keep human:** [Review and finalize cover letter]
 
