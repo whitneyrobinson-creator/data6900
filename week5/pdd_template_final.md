@@ -220,6 +220,8 @@ You must use your **Python Code Interpreter** to execute the following validatio
   }
 }
 
+---
+
 ### 4.4 Validation Log (Red Teaming)
 *Evidence that you have stress-tested your Auditor. (Paste from your Live Session Attack Log).*
 
