@@ -1,7 +1,7 @@
 # Process Design Document (PDD) - Final Release (V3.0)
-**Team Name:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-**Project Title:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-**Date:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Team Name:** Group 3
+**Project Title:** AI Automated Cover Letters
+**Date:** March 2, 2026
 
 > *Instructions: This is the cumulative final deliverable. It builds upon your Week 4 Logic. Ensure Parts 1, 2, and 3 are present (paste them from previous drafts), then complete Parts 4 and 5 below.*
 
