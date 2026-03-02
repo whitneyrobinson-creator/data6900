@@ -130,8 +130,6 @@ graph TD
 ### 5.1 The Pain Audit (SMART KPIs)
 *Define the Real Metric, not the Vanity Metric.*
 
-*### 5.1 The Pain Audit (SMART KPIs)
-
 * **The Pain:** High-value talent is currently trapped in a "Manual Synthesis" loop, spending 90 minutes per candidate on research and drafting. This creates a 30-hour weekly overhead that prevents scaling and causes significant operational burnout.
 * **The Proxy Metric:** **Human Capital Latency (HCL)** — The total billable human time (1,560 hours per year) currently "locked" into manual drafting instead of strategic business development.
 * **The SMART Goal:** > "Reduce Human Capital Latency (HCL) from **90 Minutes** to **<2 Minutes** per run, achieving a total annual reclaimed capacity of **1,560 hours** and a Net Profit of **$148,056.00** by March 31, 2026."
