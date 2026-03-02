@@ -296,8 +296,9 @@ Accounting and Finance Development Program Student Summit                       
 
 SKILLS                                              
 Technical Skills: Microsoft 365 (Excel, Word, PowerPoint, Access), Jira Reporting, Tableau, Snowflake
-
+```
 ---
+
 
 ### A.2 Target Job Posting (`job_posting_text`)
 ```text
@@ -324,6 +325,7 @@ DESIRED QUALIFICATIONS:
 HARD CONSTRAINTS:
 - Location: Must be able to work in the Washington, D.C. office.
 - Authorization: Applicants must be authorized to work in the U.S. without the need for current or future employer-sponsored work authorization (No H-1B, O-1, F-1 OPT, or TN support).
+```
 
 ### A.3 Company Research Data (`company_research_text`)
 ```text
@@ -343,6 +345,7 @@ INVESTMENT STRATEGY:
 - Tailored Portfolios: No cookie-cutter model portfolios; every program is individualized to the client's specific goals and risk tolerance.
 - Bottom-Up Research: Actively managed equity and fixed income portfolios based on rigorous, repeatable research processes.
 - Sustainable Investing: Over a decade of experience integrating environmental and social exposure data into investment decision-making.
+```
 
 ### A.4 Historical Writing Style (`past_cover_letter_text`)
 ```text
@@ -357,4 +360,4 @@ PERSONAL VOICE & NARRATIVE:
 
 CULTURAL ALIGNMENT STYLE:
 "I appreciate that Truist emphasizes the importance of serving their community while striving to create a purpose driven culture where everyone has a voice. I feel that Truist’s values align with my own, as I admire a company that has a caring, accountable, and supportive environment."
-
+```
