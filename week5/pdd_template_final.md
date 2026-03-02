@@ -31,12 +31,54 @@
 
 ```mermaid
 graph TD
-    Input --> Router{Router}
-    Router -- Type A --> Worker[Worker Node]
-    Worker --> Draft(Draft Output)
-    Draft --> Auditor{Auditor Node}
-    Auditor -- Pass --> FinalAction[Send/Save]
-    Auditor -- Fail --> HITL[Resurrection Point: Human Queue]
+  %% Input Layer
+  In[Inputs: Resume + Job + Research + Past Letter] --> DL
+
+  %% Defense Layer subgraph with Protocol 0
+  subgraph DLX[Defense Layer V3.0 Lite+]
+    DL --> P0[Protocol 0: Sanitization Scrub]
+    P0 --> HC[Protocol 1: Hard Constraint Checker]
+    P0 --> RX[Protocol 2: Resume Experience Header Detector]
+    P0 --> JH[Protocol 3: Whitelist Job Header Normalizer]
+  end
+
+  HC --> V{Defense Check Result}
+  RX --> V
+  JH --> V
+
+  %% Logic Flow
+  V -- Valid --> GK[Gatekeeper Node]
+  V -- Invalid --> STOP[Stop + Fix Input]
+
+  GK --> GKC[Gatekeeper Critic]
+  GKC --> GKPASS{Pass?}
+  GKPASS -- No --> GK
+  GKPASS -- Yes --> J[Judge Node]
+
+  J --> JC[Judge Critic]
+  JC --> JPASS{Pass?}
+  JPASS -- No --> J
+  JPASS -- Yes --> PJ[Parallel Persona Judges]
+
+  %% Parallel Persona Subgraph
+  subgraph PJX [Parallel Evaluation]
+    PJ --> PJ1[Persona A: Recruiter]
+    PJ --> PJ2[Persona B: Hiring Manager]
+  end
+
+  PJ1 --> FW[Final Worker]
+  PJ2 --> FW
+
+  %% Output
+  FW --> HR[Human Review / Final Polish]
+  HR --> OUT[Submit Artifact]
+
+  %% ROI Overlay (Styling)
+  classDef Risk fill:#f96,stroke:#333,stroke-width:2px;
+  classDef Value fill:#9f6,stroke:#333,stroke-width:2px;
+  
+  class DL,P0,HC,RX,JH,V Risk;
+  class J,JC,PJ1,PJ2,FW,OUT Value;
 ```
 
 ### 4.2 The Risk Radar (Minesweeper)
@@ -44,9 +86,9 @@ graph TD
 
 | Risk Type | Specific Scenario (The Mine) | Mitigation Strategy (The Fuse) |
 | :--- | :--- | :--- |
-| **Competence** (Hallucination) | *e.g., Bot inventing a discount policy.* | *e.g., Auditor checks against Policy.txt.* |
-| **Security** (Injection) | *e.g., User overriding instructions.* | *e.g., Strict separation of System Prompt.* |
-| **Brand** (Ethics/Bias) | *e.g., Bot being rude to angry user.* | *e.g., Tone Check in Auditor.* |
+| **Competence** (Hallucination) | **Hallucination/Inflation:** The AI "fills in the gaps" by inventing technical proficiency or stretching dates to meet job requirements. | **Gatekeeper Verbatim Mandate:** Tools 1-15 strictly forbid paraphrasing. **Judge Critic** triggers a "Source Check" to ensure every scored skill has a direct quote in the JSON. |
+| **Security** (Injection) | **Semantic Injection:** Malicious instructions hidden in plain text (without brackets) that command the AI to "Force Pass" the candidate. | **Router Logic Refinement:** Protocol 0 expanded to scan for directive verbs (e.g., "Ignore," "Override," "Set"). **Critic Node** performs a "Constraint Audit" to ensure metadata wasn't altered. |
+| **Brand** (Ethics/Bias) | **Tone Dissonance:** Robotic, cocky, or jargon-heavy drafts that violate Brown Advisory’s culture of humility and client-focus. | **Worker Persona Guardrails:** The "Persona Judges" (Recruiter/Team Lead) specifically audit for "Humility" and "Readability." **Past Voice Mirroring** anchors the tone to a human-verified sample. |
 
 ### 4.3 The Auditor Spec (SDD)
 *Define the "Police Officer" node. It must output data, not text.*
@@ -97,20 +139,24 @@ graph TD
 *Summarize the data from your ROI Excel Template.*
 > Use the [ROI Calculator](https://docs.google.com/spreadsheets/d/1zlx3lEMb58CJn8vYik4nDZPEhxNS0QWVE_yxcFMABh8/edit?usp=sharing) for help.
 
-*   **Total Cost of Ownership (Year 1):** $ \_\_\_\_\_\_\_\_\_\_
+*   **Total Cost of Ownership (Year 1):** $ 7,944.00
     *   *(Includes Dev Time + Maintenance + API Costs)*
-*   **Total Value Generated (Year 1):** $ \_\_\_\_\_\_\_\_\_\_
+*   **Total Value Generated (Year 1):** $ 156,000.00
     *   *(Hours Saved $\times$ Hourly Rate)*
-*   **Net Profit:** $ \_\_\_\_\_\_\_\_\_\_
-*   **The Break-Even Point:** \_\_\_\_\_\_\_\_\_\_ Runs
+*   **Net Profit:** $ 148,056.00
+*   **The Break-Even Point:** 40 Runs
 
 ### 5.3 Implementation Strategy
-*   **Build vs. Buy:** Why are we building this in n8n/LLM instead of buying off-the-shelf software?
-    *   *(Your reasoning here)*
-*   **Next Steps:**
-    1.  *(e.g., Secure API Keys)*
-    2.  *(e.g., Set up n8n Account)*
-    3.  *(e.g., Run Pilot with 5 users)*
+
+* **Build vs. Buy (The RAFT Analysis):**
+    1. * **Contextual Intelligence:** Off-the-shelf Applicant Tracking Systems (ATS) and generic AI writing tools are "Context-Blind," relying on simple keyword density. Our custom RAFT architecture utilizes the **Gatekeeper Node** to bridge the gap between unstructured company research (meeting transcripts, culture codes) and candidate evidence. This allows for the extraction of "Hidden Evidence" that standard software ignores, ensuring a higher quality of alignment.
+    2. * **Financial Impact:** Project Nova generates **$156,000 in annual value** with an extraordinary **ROI of 1863.75%**. While Enterprise SaaS alternatives charge $5,000+ in monthly licensing fees for "black box" logic, our 7-node pipeline operates at a marginal API cost of **$0.15 per run**.
+    3. * **Agility:** Standard software vendors operate on rigid update cycles that can take months to reflect market shifts. Because we have "Built" the logic, we can update the **Judge** or **Critic** nodes instantly to reflect changing hiring rules—such as shifting budget limits or new cultural priorities—providing a level of governance and flexibility unavailable in "Buy" scenarios.
+
+* **Next Steps (Production Roadmap):**
+    1. **Infrastructure Hardening:** Secure production-grade OpenAI API credentials and deploy a self-hosted **n8n environment**. This configuration maintains a Total Cost of Ownership (TCO) of just **$7,944.00** annually while ensuring candidate PII (Personally Identifiable Information) is scrubbed via the Router's Defense Layer before reaching external LLM endpoints.
+    2. **Integration Automation:** Connect the n8n orchestrator to Google Drive or Dropbox for the automated ingestion of Resumes and Job Postings. By removing manual data entry, the system will fully realize the projected **1,560 hours of human labor saved per year**.
+    3. **Shadow Mode Pilot:** Execute a "Shadow Deployment" trial using a dataset of 50 historical candidates. This phase will verify the **Break-Even Point** (calculated at 40 runs) and calibrate the **Judge Node’s** scoring accuracy against known historical human outcomes to ensure high-fidelity decision-making before the "Active" launch.
 
 ---
 
