@@ -250,3 +250,111 @@ graph TD
 
 ### [Appendix]
 *(Attach your full prompt library or large data schemas here to keep the main document clean.)*
+# Appendix A: Pipeline Input Data (Raw)
+
+This appendix contains the raw, unformatted text inputs used to test the Router Node and populate the Project Nova Cover Letter Pipeline.
+
+---
+
+### A.1 Candidate Resume (`resume_text`)
+```text
+Whitney Robinson
+Home Address | 443-991-0240 | whitneyrobinson2003@gmail.com
+
+EDUCATION                                                       
+Fairfield University                                       Fairfield, CT
+Master of Business Administration                                 August 2026
+Concentration: Business Analytics
+
+The Ohio State University                                                              Columbus, OH
+Bachelor of Science in Business Administration                                                      May 2025
+Specialization: Finance                                                                       GPA: 3.77
+•   Dean’s List: 7 Semesters
+•   Big Ten Distinguished Scholar: Student-athlete in the Big Ten conference who earned All-Academic Big Ten Recognition and had a 3.70 GPA or higher during the previous academic year             
+
+WORK EXPERIENCE                                     
+Brown Advisory                                  Baltimore, MD
+Summer Analyst                                  June 2025-August 2025
+•   Completed nine cross-functional projects across departments including Portfolio Management, Investment Risk, Reporting & Business Intelligence (RBI), and InvestmenIt Solutions Group; co-led a firm-wide meeting for ~1,000 colleagues on artificial intelligence applications. 
+•   Built a Tableau dashboard that integrated Snowflake data to visualize fund performance; leveraged firmwide relationships to gather feedback to optimize RBI support across teams.
+•   Acted as portfolio manager, strategic advisor, and relationship advisor in a hands-on private client simulation, developing an investment policy statement, managing asset allocation via APX and TouchPoint, and providing tailored financial recommendations to the client.
+
+Kohl’s                                                  Milwaukee, WI
+Finance and Accounting Intern                                              June 2024-August 2024
+•   Supported Kohl’s Technology as a member of the Business Unit Finance team by creating step-by-step process explanation documents that improved the business contract process and by generating weekly reports to track capitalizable work that led to better time management. 
+•   Developed a solution that consolidated contractual information from over 150 vendors into a centralized file that streamlined budget planning, tracked spending, and increased collaboration between business partners and departments. 
+•   Compiled and analyzed data from business partners and presented key findings to the Kohl’s Leadership Team, including the CFO, to support strategic decision making. 
+
+LEADERSHIP ACTIVITIES & PROFESSIONAL DEVELOPMENT                
+The Ohio State University & Fairfield University                                         
+Women’s Lacrosse Student Athlete                                  August 2021-May 2026
+•   Developed time management skills by dedicating over 20 hours per week to team activities such as training, meetings, team travel, and competition.
+•   Led team culture and recruitment initiatives as a collegiate lacrosse player, participating in leadership development and hosting campus panels for prospective student-athletes.
+
+Walmart                                                 Bentonville, AR
+Accounting and Finance Development Program Student Summit                        September 2024
+
+SKILLS                                              
+Technical Skills: Microsoft 365 (Excel, Word, PowerPoint, Access), Jira Reporting, Tableau, Snowflake
+
+---
+
+### A.2 Target Job Posting (`job_posting_text`)
+```text
+JOB TITLE: Investment Operations Analyst
+LOCATION: Washington, D.C. Office (Required)
+REQUISITION ID: JR1545
+
+COMPANY OVERVIEW:
+Brown Advisory is an independent investment management and strategic advisory firm committed to a client-first culture. 950+ colleagues worldwide are equity owners of the firm.
+
+PRIMARY RESPONSIBILITIES:
+- Provide operational support to the Investment team via client transactions and data administration.
+- Daily triage of "statement inboxes" to identify actionable communications from fund managers.
+- Daily review of cash availability for upcoming money movement transactions.
+- Maintain portal access for investments and facilitate delivery of related documents.
+- Support workflows maintaining capital activity and valuations across required platforms.
+
+DESIRED QUALIFICATIONS:
+- Experience: 0-2 years of relevant experience.
+- Education: Bachelor’s degree with a record of academic achievement.
+- Technical: Mastery of Microsoft Office Suite (especially Excel).
+- Mindset: Intellectual curiosity, critical thinking, and extraordinary attention to detail.
+
+HARD CONSTRAINTS:
+- Location: Must be able to work in the Washington, D.C. office.
+- Authorization: Applicants must be authorized to work in the U.S. without the need for current or future employer-sponsored work authorization (No H-1B, O-1, F-1 OPT, or TN support).
+
+### A.3 Company Research Data (`company_research_text`)
+```text
+MISSION & VISION: 
+To make a positive and material difference in the lives of our clients. Founded with a simple vision: to build a client-first investment firm.
+
+CORE DNA (The 4 Cs): 
+- Client First: Mission-focused on putting clients' needs above all else.
+- Colleague Driven: Focused on teamwork; every full-time colleague is an equity owner.
+- Community Focused: Finding material ways to help communities thrive.
+- Culture Led: Committed to humility, curiosity, and learning from each other.
+
+TEAMWORK & LEARNING:
+Teamwork is the "Brown Advisory Way." Decisions are made by cross-functional teams (portfolio managers, strategic advisors, and client service). They maintain a "Culture of Learning" via daily morning meetings, firm-funded education, and curiosity-driven research.
+
+INVESTMENT STRATEGY:
+- Tailored Portfolios: No cookie-cutter model portfolios; every program is individualized to the client's specific goals and risk tolerance.
+- Bottom-Up Research: Actively managed equity and fixed income portfolios based on rigorous, repeatable research processes.
+- Sustainable Investing: Over a decade of experience integrating environmental and social exposure data into investment decision-making.
+
+### A.4 Historical Writing Style (`past_cover_letter_text`)
+```text
+CANDIDATE: Whitney Robinson
+CONTACT: (443) 991-0240 | Whitneyrobinson2003@gmail.com
+
+PAST WRITING SAMPLE (TRUIST APPLICATION):
+"I recently completed a finance and accounting internship at Kohls where I supported the technology department by improving process documents, creating a working file to increase efficiency and collaboration with their business partners, and presenting analysis and findings to executives and leaders within the company."
+
+PERSONAL VOICE & NARRATIVE:
+"In addition to the knowledge that I have gained by taking a variety of business and finance courses, I have demonstrated the ability to successfully manage multiple priorities by maintaining a 3.7 GPA while serving as a goalie on Ohio State’s Division I lacrosse team. Being a student-athlete, I have developed skills to communicate effectively in a team environment. My drive to succeed simultaneously in both academics and athletics would translate well into making an impact for your organization."
+
+CULTURAL ALIGNMENT STYLE:
+"I appreciate that Truist emphasizes the importance of serving their community while striving to create a purpose driven culture where everyone has a voice. I feel that Truist’s values align with my own, as I admire a company that has a caring, accountable, and supportive environment."
+
